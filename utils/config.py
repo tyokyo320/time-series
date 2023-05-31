@@ -16,13 +16,21 @@ epoch = 414915
 
 # start and end index
 start = 414819  # last day
-error_abs_end = epoch * 2
+end = 414915
+error_abs_end = end * 2
 error_abs_start = error_abs_end - 24*4
 # start = 411937 # last 1 month
 cell_synapases_start = 0
 
-# inf
-predict_inf_results_path = "../output/infinity/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08_infinity.csv"
+#######################################################################################################################
+# Case 2: inf
+inf_predict_results_path = "../output/infinity/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
+inf_cell_synapases_history_path = '../output/infinity/CellSynapasesHistory_BUon_BOon_NY15min_cells32_n421_r13d08.csv'
 
-# 100
-predict_100_results_path = "../output/100/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08_100.csv"
+# Case 3: 10%
+tenpercent_predict_results_path = "../output/tenpercent/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
+tenpercent_cell_synapases_history_path = '../output/tenpercent/CellSynapasesHistory_BUon_BOon_NY15min_cells32_n421_r13d08.csv'
+
+# Case 4: first year as min and max
+firstyear_predict_results_path = "../output/firstyear/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
+firstyear_cell_synapases_history_path = '../output/firstyear/CellSynapasesHistory_BUon_BOon_NY15min_cells32_n421_r13d08.csv'
