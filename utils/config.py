@@ -3,6 +3,7 @@ import os
 # Program root dir(do not modify)
 ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
 
+#######################################################################################################################
 # test data file
 test_data_path = '../data/test.csv'
 
@@ -14,11 +15,17 @@ cell_synapases_history_path = '../output/original/CellSynapasesHistory_BUon_BOon
 nTrial = 10
 epoch = 414915
 
-# start and end index
-start = 414819  # last day
-end = 414915
-error_abs_end = end * 2
-error_abs_start = error_abs_end - 24*4
+#######################################################################################################################
+# start and end index -> WARNING: start index must be 0 not 1
+# first day
+# start = 0
+# end = 95
+# last day
+start = 414819
+end = 414914
+error_abs_start = start+epoch+1
+error_abs_end = end+epoch+1
+
 # start = 411937 # last 1 month
 cell_synapases_start = 0
 

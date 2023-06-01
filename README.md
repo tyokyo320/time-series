@@ -1,15 +1,47 @@
-$$
-\begin{align}
-    e(t) = \sum^{t}_{k=1} |\bar{X}(k+1) - X(k+1)|
-\end{align}
-$$
-
-$$
-\begin{align}
-    \text{Error} = \frac{1}{n} \sum_{i=1}^{n} \mathbf{e}_i(t)
-\end{align}
-$$
-
 | measure | pattern 1 | pattern 2 | pattern 3 | pattern 4 |
 | :-----: | :-------: | :-------: | :-------: | :-------: |
 |  error  |  7495.07  |  10700.0  |  7418.93  |           |
+
+$$
+\begin{align}
+    e_i(t) = |\bar{X}(t+1) - X(t+1)|
+\end{align}
+$$
+
+$$
+\begin{align}
+    \text{TAE} = \sum_{t=1}^{T} e_i(t)
+\end{align}
+$$
+
+$$
+\begin{align}
+    \bar{\text{TAE}} = \frac{1}{n} \sum_{i=1}^{n} \text{TAE}
+\end{align}
+$$
+
+- - -
+
+$$
+\begin{align}
+    e_i(t) = |\bar{X}(t+1) - X(t+1)|
+\end{align}
+$$
+
+$$
+\begin{align}
+    \text{MAE} = \frac{1}{T} \sum_{t=1}^{T} e_i(t)
+\end{align}
+$$
+
+$$
+\begin{align}
+    \bar{\text{MAE}} = \frac{1}{n} \sum_{i=1}^{n} \text{MAE}
+\end{align}
+$$
+
+- - -
+
+index
+predict: 0 - 414914 -> total 414915
+error  : 414916 -> 829830 -> total 414915
