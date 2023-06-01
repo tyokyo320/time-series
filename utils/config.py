@@ -17,12 +17,14 @@ epoch = 414915
 
 #######################################################################################################################
 # start and end index -> WARNING: start index must be 0 not 1
+start = 0
+end = 414915
 # first day
 # start = 0
 # end = 95
 # last day
-start = 414819
-end = 414914
+# start = 414819
+# end = 414914
 error_abs_start = start+epoch+1
 error_abs_end = end+epoch+1
 

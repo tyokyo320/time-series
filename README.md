@@ -1,7 +1,3 @@
-| measure | pattern 1 | pattern 2 | pattern 3 | pattern 4 |
-| :-----: | :-------: | :-------: | :-------: | :-------: |
-|  error  |  7495.07  |  10700.0  |  7418.93  |           |
-
 $$
 \begin{align}
     e_i(t) = |\bar{X}(t+1) - X(t+1)|
