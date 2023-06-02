@@ -24,11 +24,11 @@ epoch = 414915
 # start = 0
 # end = 414914
 # first day
-# start = 0
-# end = 95
+start = 0
+end = 95
 # last day
-start = 414819
-end = 414914
+# start = 414819
+# end = 414914
 error_abs_start = start+epoch+1
 error_abs_end = end+epoch+1
 
