@@ -16,6 +16,17 @@ nTrial = 10
 epoch = 414915
 sampling_interval = 1
 
+# color dict
+color_dict = {
+    0: '#1f77b4',
+    1: '#ff7f0e',
+    2: '#2ca02c',
+    3: '#d62728',
+    # 4: '#9467bd',
+    # 5: '#8c564b',
+    # 6: '#e377c2',
+}
+
 #######################################################################################################################
 # start and end index -> WARNING: start index must be 0 not 1
 # index
