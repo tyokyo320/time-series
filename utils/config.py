@@ -14,6 +14,7 @@ cell_synapases_history_path = '../output/original/CellSynapasesHistory_BUon_BOon
 # param
 nTrial = 10
 epoch = 414915
+sampling_interval = 1
 
 #######################################################################################################################
 # start and end index -> WARNING: start index must be 0 not 1
@@ -24,11 +25,11 @@ epoch = 414915
 # start = 0
 # end = 414914
 # first day
-start = 0
-end = 95
+# start = 0
+# end = 95
 # last day
-# start = 414819
-# end = 414914
+start = 414819
+end = 414914
 error_abs_start = start+epoch+1
 error_abs_end = end+epoch+1
 
