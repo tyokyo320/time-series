@@ -11,7 +11,7 @@ beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup
 bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1649361991009/work
 Bottleneck @ file:///tmp/build/80754af9/bottleneck_1648028895253/work
 brotlipy==0.7.0
-certifi==2021.10.8
+certifi==2023.7.22
 cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
 charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
 colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
