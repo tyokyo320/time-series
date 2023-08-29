@@ -51,7 +51,7 @@ jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterl
 jupyterlab-server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1650422149061/work
 kiwisolver @ file:///opt/conda/conda-bld/kiwisolver_1638569886207/work
 lckr-jupyterlab-variableinspector==3.0.9
-lxml==4.8.0
+lxml==4.9.1
 MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1621455677251/work
 matplotlib @ file:///tmp/build/80754af9/matplotlib-suite_1647441664166/work
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1631080358261/work
