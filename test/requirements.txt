@@ -104,7 +104,7 @@ terminado @ file:///home/conda/feedstock_root/build_artifacts/terminado_16491037
 threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
 tinycss2 @ file:///home/conda/feedstock_root/build_artifacts/tinycss2_1637612658783/work
 toml==0.10.2
-torch==1.11.0
+torch==1.13.1
 torchaudio==0.11.0
 torchvision==0.12.0
 tornado @ file:///tmp/build/80754af9/tornado_1606942300299/work
