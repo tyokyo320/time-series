@@ -5,8 +5,8 @@ ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 #######################################################################################################################
 # test data file
-test_data_path = '../data/syntheic/sin_wave_nonoise.csv'
-# test_data_path = '../data/syntheic/trend_sin_nonoise.csv'
+# test_data_path = '../data/syntheic/sin_wave_nonoise.csv'
+test_data_path = '../data/syntheic/trend_sin_nonoise.csv'
 
 # param
 nTrial = 10
@@ -38,7 +38,7 @@ cell_synapases_start = 0
 
 #######################################################################################################################
 # sin_wave_nonoise
-predict_results_path = "../output/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
+# predict_results_path = "../output/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
 
 # trend_sin_nonoise
-# predict_results_path = "../output/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+predict_results_path = "../output/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
