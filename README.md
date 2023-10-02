@@ -42,4 +42,16 @@ index
 predict: 0 - 414914 -> total 414915
 error  : 414916 -> 829830 -> total 414915
 
-上・下限値が変動する時系列データに対する CLA の拡張
+$$
+\begin{align}
+    \mathbf{X}' = \argmax_{x \in \mathbf{X}} \sum^{|\mathbf{d}|}_{j=1} d_jx_j
+\end{align}
+$$
+
+- - -
+
+$$
+\begin{align}
+    \overline{\mathbf{x}} = \text{median}(\mathbf{X}')
+\end{align}
+$$
