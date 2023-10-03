@@ -12,7 +12,9 @@ test_data_path = '../data/syntheic/trend_sin_nonoise.csv'
 
 # param
 nTrial = 10
-epoch = 19999
+epoch = 19999   # sin_wave_nonoise.csv
+# epoch = 39999   # change_sin_nonoise.csv
+# epoch = 59999   # change2_sin_nonoise.csv
 sampling_interval = 1
 
 # color dict
