@@ -11,7 +11,7 @@ test_data_path = '../data/syntheic/trend_sin_nonoise.csv'
 # test_data_path = '../data/syntheic/change2_sin_nonoise.csv'
 
 # param
-nTrial = 1
+nTrial = 10
 epoch = 19999   # sin_wave_nonoise.csv / trend_sin_nonoise.csv
 # epoch = 39999   # change_sin_nonoise.csv
 # epoch = 59999   # change2_sin_nonoise.csv
