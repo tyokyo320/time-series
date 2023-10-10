@@ -11,8 +11,8 @@ test_data_path = '../data/syntheic/trend_sin_nonoise.csv'
 # test_data_path = '../data/syntheic/change2_sin_nonoise.csv'
 
 # param
-nTrial = 10
-epoch = 19999   # sin_wave_nonoise.csv
+nTrial = 1
+epoch = 19999   # sin_wave_nonoise.csv / trend_sin_nonoise.csv
 # epoch = 39999   # change_sin_nonoise.csv
 # epoch = 59999   # change2_sin_nonoise.csv
 sampling_interval = 1
@@ -30,9 +30,22 @@ color_dict = {
 
 #######################################################################################################################
 # All observation (sin_wave_nonoise)
-start = 19900
+# start = 19900
+# end = 20000
+# zoom_coords = ((19970, 19980), (0.0, 0.1))
+#######################################################################################################################
+# All observation (trend_sin_nonoise)
+start = 0
 end = 20000
 zoom_coords = ((19970, 19980), (0.0, 0.1))
+#######################################################################################################################
+# All observation (change_sin_nonoise)
+# start = 39900
+# end = 40000
+# zoom_coords = ((39900, 40000), (0.0, 0.1))
+#######################################################################################################################
+# All observation (change2_sin_nonoise)
+
 #######################################################################################################################
 error_abs_start = start+epoch+1
 error_abs_end = end+epoch+1

@@ -55,3 +55,21 @@ $$
     \overline{\mathbf{x}} = \text{median}(\mathbf{X}')
 \end{align}
 $$
+
+- - -
+
+$x_i (i = 0, 1, 2, \cdots, n)$
+
+$$
+\begin{align}
+    x_i = \begin{cases}
+        1, \quad \text{if} \ h(X(t)) \leq i < h(X(t)) + \delta
+        \\
+        0, \quad \text{otherwise}
+    \end{cases}
+\end{align}
+$$
+
+$h(X(t)) = \text{round}( \frac{(X(t) - X^{min}) \cdot (n - \delta)}{X^{max} - X^{min}} )$
+
+$h(X(t))$
