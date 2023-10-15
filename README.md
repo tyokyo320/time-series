@@ -73,3 +73,40 @@ $$
 $h(X(t)) = \text{round}( \frac{(X(t) - X^{min}) \cdot (n - \delta)}{X^{max} - X^{min}} )$
 
 $h(X(t))$
+
+- - -
+
+- [x] case1: 真値
+  - [x] sin_wave_nonoise
+  - [x] trend_sin_nonoise
+  - [x] change_sin_nonoise
+  - [x] change2_sin_nonoise
+- [x] case2: 5倍
+  - [x] sin_wave_nonoise
+  - [x] trend_sin_nonoise
+  - [x] change_sin_nonoise
+  - [x] change2_sin_nonoise
+- [x] case3: 丸める
+  - [x] sin_wave_nonoise
+  - [x] trend_sin_nonoise
+  - [x] change_sin_nonoise
+  - [x] change2_sin_nonoise
+- [x] case4: proposed (range 401)
+  - [x] sin_wave_nonoise
+  - [x] trend_sin_nonoise
+  - [x] change_sin_nonoise
+  - [x] change2_sin_nonoise
+- [x] case5: proposed (range 201)
+  - [x] sin_wave_nonoise
+  - [x] trend_sin_nonoise
+  - [x] change_sin_nonoise
+  - [x] change2_sin_nonoise
+
+- - -
+
+TODO:
+
+1. [ ] fix config file
+   1. [ ] case1-5
+2. [ ] fix predict_syntheic
+   1. [ ] add case1-5

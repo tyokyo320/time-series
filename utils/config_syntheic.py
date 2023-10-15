@@ -56,31 +56,36 @@ error_abs_end = end+epoch+1
 #######################################################################################################################
 # NEED TO FIX predict_results_path LIKE THAT: df_proposed = load_csv_data(config.proposed_predict_results_path)
 #######################################################################################################################
-###################################################### Case1 #######################################################
+CASE = 'case1'
+# CASE = 'case2'
+# CASE = 'case3'
+###################################################### Case1-3 #######################################################
 # sin_wave_nonoise
-# predict_results_path = "../output/syntheic/case1/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
+# predict_results_path = f"../output/syntheic/{CASE}/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
 
 # trend_sin_nonoise
-predict_results_path = "../output/syntheic/case1/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+predict_results_path = f"../output/syntheic/{CASE}/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
 
 # change_sin_nonoise
-# predict_results_path = "../output/syntheic/case1/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
+# predict_results_path = f"../output/syntheic/{CASE}/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
 
 # change2_sin_nonoise
-# predict_results_path = "../output/syntheic/case1/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
+# predict_results_path = f"../output/syntheic/{CASE}/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
+#######################################################################################################################
+#######################################################################################################################
 ###################################################### proposed #######################################################
+PROPOSED = 'case5'
+
 # sin_wave_nonoise
-# proposed_predict_results_path = "../output/syntheic/proposed/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
+# proposed_predict_results_path = f"../output/syntheic/{PROPOSED}/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
 
 # trend_sin_nonoise
-proposed_predict_results_path = "../output/syntheic/proposed/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+proposed_predict_results_path = f"../output/syntheic/{PROPOSED}/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
 
 # change_sin_nonoise
-# proposed_predict_results_path = "../output/syntheic/proposed/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
+# proposed_predict_results_path = f"../output/syntheic/{PROPOSED}/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
 
 # change2_sin_nonoise
-# proposed_predict_results_path = "../output/syntheic/proposed/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
-###################################################### Case5 #######################################################
-# Get base CLA problem
-# predict_results_path = "../output/problem/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
-# tenpercent_predict_results_path = "../output/problem/tenpercent/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+# proposed_predict_results_path = f"../output/syntheic/{PROPOSED}/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
+###################################################### proposed #######################################################
+#######################################################################################################################
