@@ -56,36 +56,69 @@ error_abs_end = end+epoch+1
 #######################################################################################################################
 # NEED TO FIX predict_results_path LIKE THAT: df_proposed = load_csv_data(config.proposed_predict_results_path)
 #######################################################################################################################
-CASE = 'case1'
-# CASE = 'case2'
-# CASE = 'case3'
-###################################################### Case1-3 #######################################################
+###################################################### Case1 #######################################################
 # sin_wave_nonoise
-# predict_results_path = f"../output/syntheic/{CASE}/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
+# case1_predict_results_path = f"../output/syntheic/case1/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
 
 # trend_sin_nonoise
-predict_results_path = f"../output/syntheic/{CASE}/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+case1_predict_results_path = f"../output/syntheic/case1/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
 
 # change_sin_nonoise
-# predict_results_path = f"../output/syntheic/{CASE}/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
+# case1_predict_results_path = f"../output/syntheic/case1/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
 
 # change2_sin_nonoise
-# predict_results_path = f"../output/syntheic/{CASE}/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
+# case1_predict_results_path = f"../output/syntheic/case1/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
 #######################################################################################################################
-#######################################################################################################################
-###################################################### proposed #######################################################
-PROPOSED = 'case5'
-
+###################################################### Case2 #######################################################
 # sin_wave_nonoise
-# proposed_predict_results_path = f"../output/syntheic/{PROPOSED}/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
+# case2_predict_results_path = f"../output/syntheic/case2/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
 
 # trend_sin_nonoise
-proposed_predict_results_path = f"../output/syntheic/{PROPOSED}/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+case2_predict_results_path = f"../output/syntheic/case2/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
 
 # change_sin_nonoise
-# proposed_predict_results_path = f"../output/syntheic/{PROPOSED}/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
+# case2_predict_results_path = f"../output/syntheic/case2/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
 
 # change2_sin_nonoise
-# proposed_predict_results_path = f"../output/syntheic/{PROPOSED}/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
-###################################################### proposed #######################################################
+# case2_predict_results_path = f"../output/syntheic/case2/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
+#######################################################################################################################
+###################################################### Case3 #######################################################
+# sin_wave_nonoise
+# case3_predict_results_path = f"../output/syntheic/case3/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
+
+# trend_sin_nonoise
+case3_predict_results_path = f"../output/syntheic/case3/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+
+# change_sin_nonoise
+# case3_predict_results_path = f"../output/syntheic/case3/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
+
+# change2_sin_nonoise
+# case3_predict_results_path = f"../output/syntheic/case3/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
+#######################################################################################################################
+###################################################### Case4 #######################################################
+# sin_wave_nonoise
+# case4_predict_results_path = f"../output/syntheic/case4/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
+
+# trend_sin_nonoise
+case4_predict_results_path = f"../output/syntheic/case4/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+
+# change_sin_nonoise
+# case4_predict_results_path = f"../output/syntheic/case4/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
+
+# change2_sin_nonoise
+# case4_predict_results_path = f"../output/syntheic/case4/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
+#######################################################################################################################
+#######################################################################################################################
+###################################################### Case5 #######################################################
+# sin_wave_nonoise
+# case5_predict_results_path = f"../output/syntheic/case5/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
+
+# trend_sin_nonoise
+case5_predict_results_path = f"../output/syntheic/case5/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
+
+# change_sin_nonoise
+# case5_predict_results_path = f"../output/syntheic/case5/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
+
+# change2_sin_nonoise
+# case5_predict_results_path = f"../output/syntheic/case5/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
 #######################################################################################################################
