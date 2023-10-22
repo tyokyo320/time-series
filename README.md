@@ -104,9 +104,3 @@ $h(X(t))$
 
 - - -
 
-TODO:
-
-1. [ ] fix config file
-   1. [ ] case1-5
-2. [ ] fix predict_syntheic
-   1. [ ] add case1-5
