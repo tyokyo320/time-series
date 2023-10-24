@@ -119,17 +119,3 @@ case4_predict_results_path = f"../output/syntheic/case4/trend_sin_nonoise/InputO
 # change2_sin_nonoise
 # case4_predict_results_path = f"../output/syntheic/case4/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
 #######################################################################################################################
-#######################################################################################################################
-###################################################### Case5 #######################################################
-# sin_wave_nonoise
-# case5_predict_results_path = f"../output/syntheic/case5/sin_wave_nonoise/InputOutput_sin_wave_nonoise_cells32_n421_r13d08.csv"
-
-# trend_sin_nonoise
-case5_predict_results_path = f"../output/syntheic/case5/trend_sin_nonoise/InputOutput_trend_sin_nonoise_cells32_n421_r13d08.csv"
-
-# change_sin_nonoise
-# case5_predict_results_path = f"../output/syntheic/case5/change_sin_nonoise/InputOutput_change_sin_nonoise_cells32_n421_r13d08.csv"
-
-# change2_sin_nonoise
-# case5_predict_results_path = f"../output/syntheic/case5/change2_sin_nonoise/InputOutput_change2_sin_nonoise_cells32_n421_r13d08.csv"
-#######################################################################################################################
