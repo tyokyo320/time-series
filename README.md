@@ -91,16 +91,20 @@ $h(X(t))$
   - [x] trend_sin_nonoise
   - [x] change_sin_nonoise
   - [x] change2_sin_nonoise
-- [x] case4: proposed (range 401)
-  - [x] sin_wave_nonoise
-  - [x] trend_sin_nonoise
-  - [x] change_sin_nonoise
-  - [x] change2_sin_nonoise
-- [x] case5: proposed (range 201)
+- [x] case4: proposed (range 201)
   - [x] sin_wave_nonoise
   - [x] trend_sin_nonoise
   - [x] change_sin_nonoise
   - [x] change2_sin_nonoise
 
 - - -
+\
+old -> backup
 
+- [x] case4: proposed (range 401)
+  - [x] sin_wave_nonoise
+  - [x] trend_sin_nonoise
+  - [x] change_sin_nonoise
+  - [x] change2_sin_nonoise
+
+new -> case5: proposed (range 201) -> case4: proposed
