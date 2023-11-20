@@ -98,7 +98,7 @@ $h(X(t))$
   - [x] change2_sin_nonoise
 
 - - -
-\
+
 old -> backup
 
 - [x] case4: proposed (range 401)
