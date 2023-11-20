@@ -51,19 +51,19 @@ error_abs_end = end+epoch+1
 cell_synapases_start = 0
 
 #######################################################################################################################
+###################################################### Case1 #######################################################
 # Case 1: Original
-predict_results_path = "../output/original/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
-cell_synapases_history_path = '../output/original/CellSynapasesHistory_BUon_BOon_NY15min_cells32_n421_r13d08.csv'
-
-# Case 2: inf
-inf_predict_results_path = "../output/infinity/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
-inf_cell_synapases_history_path = '../output/infinity/CellSynapasesHistory_BUon_BOon_NY15min_cells32_n421_r13d08.csv'
-
-# Case 3: 10%
-tenpercent_predict_results_path = "../output/tenpercent/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
-tenpercent_cell_synapases_history_path = '../output/tenpercent/CellSynapasesHistory_BUon_BOon_NY15min_cells32_n421_r13d08.csv'
-
-# Case 4: first year as min and max
-firstyear_predict_results_path = "../output/firstyear/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
-firstyear_cell_synapases_history_path = '../output/firstyear/CellSynapasesHistory_BUon_BOon_NY15min_cells32_n421_r13d08.csv'
+case1_predict_results_path = "../output/electric-consumption/case1/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
+#######################################################################################################################
+###################################################### Case2 #######################################################
+# Case 2
+case2_predict_results_path = "../output/electric-consumption/case2/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
+#######################################################################################################################
+###################################################### Case3 #######################################################
+# Case 3
+case3_predict_results_path = "../output/electric-consumption/case3/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
+#######################################################################################################################
+###################################################### Case4 #######################################################
+# Case 4: Proposed
+case4_predict_results_path = "../output/electric-consumption/case4/InputOutput_BUon_BOon_NY15min_cells32_n421_r13d08.csv"
 #######################################################################################################################
