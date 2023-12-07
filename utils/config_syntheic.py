@@ -29,6 +29,15 @@ color_dict = {
     # 7: '#e377c2',
 }
 
+# for CLA lebel
+label_color_map = {
+    'CLA(Fit)': color_dict[1],
+    'CLA(Wide)': color_dict[2],
+    'CLA(Narrow)': color_dict[3],
+    'CLA-DR': color_dict[4],
+}
+
+
 #######################################################################################################################
 # All observation (sin_wave_nonoise)
 # start = 0
