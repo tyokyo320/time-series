@@ -42,8 +42,8 @@ label_color_map = {
 # All observation (sin_wave_nonoise)
 start = 19900
 end = 20000
-zoom_coords_max = ((19918, 19930), (0.94, 1.02))
-zoom_coords_min = ((19968, 19980), (-0.05, 0.1))
+zoom_coords_max = ((19930, 19940), (0.82, 0.92))
+zoom_coords_min = ((19980, 19990), (0.05, 0.18))
 #######################################################################################################################
 # All observation (trend_sin_nonoise)
 # start = 19900
